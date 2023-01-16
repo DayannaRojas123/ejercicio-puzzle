@@ -70,10 +70,10 @@ function comprobarpuz(){
 			i
 		]== i){
 			//comprobamos que la posicion i es diferente a la posicion i
-            fin='completo'
+            fin='error'
 		
 			}else{
-			fin='error'
+			fin='completo'
 		}
 	}alert(fin)
 		
