@@ -65,12 +65,11 @@ function comprobarpuz(){
 	let fin=''
     for(let i=0;i<9;i++){
 		//recorremos el iterador 
-	    
-        if(fichas.every((value,index)=>value===fichas[index])){
-			fin='puzzle completo c:'
-		
-		}else{
+	 if( fichas[i]== i){
 			fin='puzzle incompleto :c'
+		 
+	 }else if( fichas.includes(0,1,2,3,4,5,6,7,8)!= i){
+			fin='puzzle completo c:'
 		}
 	}alert(fin)
 		
