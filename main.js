@@ -61,12 +61,12 @@ function comprobarpuz(){
 		//recorremos el iterador 
         if( fichas[
 			i
-		]!= i ){
-			//comprobamos que la posicion i es diferente a la posicion i
+		]!= c ){
+			//comprobamos que la posicion i es diferente a la posicion c
             fin='error'
 		}else if (fichas[
 			i
-		]== i){
+		]== c){
 			fin='completo'
 		}
 	}alert(fin)
