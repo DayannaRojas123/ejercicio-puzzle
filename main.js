@@ -60,14 +60,15 @@ function comprobarpuz(){
 	let fin=''
     for(let i=0;i<9;i++){
 		//recorremos el iterador 
+	    
         if( fichas[
 			i
-		]== i ){
+		]== seleccionar(i) ){
 			//comprobamos que la posicion i es diferente a la posicion i
-            fin='error'
+            fin='completo'
 		
 			}else{
-			fin='completo'
+			fin='error'
 		}
 	}alert(fin)
 		
