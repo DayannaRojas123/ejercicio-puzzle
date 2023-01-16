@@ -66,7 +66,7 @@ function comprobarpuz(){
     for(let i=0;i<9;i++){
 		//recorremos el iterador 
 	    
-        if(fichas.every(i)){
+        if(fichas.every((value,index)=>value===fichas[index])){
 			fin='puzzle completo c:'
 		
 		}else{
