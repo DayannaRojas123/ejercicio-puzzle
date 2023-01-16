@@ -72,9 +72,7 @@ function comprobarpuz(){
 			//comprobamos que la posicion i es diferente a la posicion i
             fin='puzzle incompleto :c'
 		
-			}else if( fichas[
-			i
-		]!= i){
+			}else if( fichas.includes(0,1,2,3,4,5,6,7,8,9)!= i){
 			fin='puzzle completo c:'
 		}
 	}alert(fin)
