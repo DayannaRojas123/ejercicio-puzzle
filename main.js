@@ -57,7 +57,7 @@ comprobacion.addEventListener('click',
 comprobarpuz) //evento de escucha cuando haga click en el boton invocara la funcion comprobarpuz
 function comprobarpuz(){
 	let fin=''
-    for(let i=0;i<=8;i++){
+    for(let i=0;i<=9;i++){
 		//recorremos el iterador 
         if( fichas[
 			i
