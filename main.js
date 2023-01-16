@@ -66,7 +66,7 @@ function comprobarpuz(){
     for(let i=0;i<9;i++){
 		//recorremos el iterador 
 	    
-        if( fichas.includes(0,1,2,3,4,5,6,7,8)!= i){
+        if( fichas.includes(0,1,2,3,4,5,6,7,8)== i){
 			fin='puzzle completo c:'
 		} else{
 			
