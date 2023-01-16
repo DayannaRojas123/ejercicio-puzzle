@@ -66,11 +66,11 @@ function comprobarpuz(){
     for(let i=0;i<9;i++){
 		//recorremos el iterador 
 	    
-        if( fichas[i]== i){
-			fin='puzzle incompleto :c'
+        if( fichas[i]== document.getElementById("img_"+c).src){
+			fin='puzzle completo c:'
 		
 		}else if( fichas.includes(0,1,2,3,4,5,6,7,8,9)!= i){
-			fin='puzzle completo c:'
+			fin='puzzle incompleto :c'
 		}
 	}alert(fin)
 		
