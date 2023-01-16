@@ -56,16 +56,17 @@ function seleccionar(casilla){
 comprobacion.addEventListener('click',
 comprobarpuz) //evento de escucha cuando haga click en el boton invocara la funcion comprobarpuz
 function comprobarpuz(){
-	let fin=''
-    for(let i=0;i<=9;i++){
+	let fin=true
+    for(let i=0;i<9;i++){
 		//recorremos el iterador 
         if( fichas[
 			i
 		]!= i ){
 			//comprobamos que la posicion i es diferente a la posicion i
-            fin='error'
-		}else{
-			fin='completo'
+            fin=false
+		alert('error')
+		}if(fin==true){
+				alert('completo')
 		}
-	}alert(fin)
+	}
 }
