@@ -12,11 +12,11 @@ let fichas=[
 let num_click=0 //creamos un contador para controlar el numero de clicks y desplazar las fichas al siguiente click
 let primerclic=0 //creamos un contador para controlar un click como la posicion de la casilla seleccionada
 
-let comparacion=[seleccionar(casilla)]
+
 
 function seleccionar(casilla){
 	
-
+	
 	num_click++
      if(num_click==1){
 		//creamos una condicion para iniciar el conteo y registro de los clicks que activara el movimiento de la ficha 
@@ -63,12 +63,12 @@ comprobarpuz) //evento de escucha cuando haga click en el boton invocara la func
 
 function comprobarpuz(){
 	let fin=''
-    for(let i=0;i<comparacion;i++){
+    for(let i=0;i<9;i++){
 		//recorremos el iterador 
 	    
         if( fichas[
 			i
-		]== comparacion[i]){
+		]== i){
 			//comprobamos que la posicion i es diferente a la posicion i
             fin='completo'
 		
