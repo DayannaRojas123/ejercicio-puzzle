@@ -59,14 +59,11 @@ function comprobarpuz(){
 	let fin=''
     for(let i=0;i<9;i++){
 		//recorremos el iterador 
-        if( fichas[
-			c
-		]!= i ){
+        if( fichas[i]!= i ){
 			//comprobamos que la posicion i es diferente a la posicion c
             fin='error'
-		}else if (fichas[
-			c
-		]== i){
+		}}
+	    else {
 			fin='completo'
 		}
 	}alert(fin)
