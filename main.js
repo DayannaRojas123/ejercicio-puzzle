@@ -58,12 +58,12 @@ comprobarpuz) //evento de escucha cuando haga click en el boton invocara la func
 
 function comprobarpuz(){
 	let fin=''
-    for(let i=0;i<9;i++){
+    for(let i=0;i<casilla;i++){
 		//recorremos el iterador 
 	    
         if( fichas[
 			i
-		]== seleccionar(i) ){
+		]== casilla(i)){
 			//comprobamos que la posicion i es diferente a la posicion i
             fin='completo'
 		
