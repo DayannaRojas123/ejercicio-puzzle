@@ -40,7 +40,7 @@ function seleccionar(casilla){
         document.getElementById('img_'+c).style.border= null //quita el borde a la imagen
 	}
 }function desordenar(){
-	fichas=fichas.sort(function(){
+	fichas.sort(function(){
 		//toma el array fichas con las posiciones iniciales y vuelve a reordenar las posiciones del arreglo
         return Math.random()-0.5 //con un Math.random ponemos orden aleatorio
 	})
