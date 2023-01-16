@@ -64,7 +64,9 @@ function comprobarpuz(){
 		]!= i ){
 			//comprobamos que la posicion i es diferente a la posicion i
             fin='error'
-		}else{
+		}else if (fichas[
+			i
+		]== i){
 			fin='completo'
 		}
 	}alert(fin)
