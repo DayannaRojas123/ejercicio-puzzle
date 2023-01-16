@@ -57,15 +57,19 @@ comprobacion.addEventListener('click',
 comprobarpuz) //evento de escucha cuando haga click en el boton invocara la funcion comprobarpuz
 
 function comprobarpuz(){
-	 let comprobar= true;
-    for(let c=0;c<9;c++){
-        if(fichas[c]!=c){
-            comprobar=false;
-        }
-    }
-    if(comprobar==true){
-        alert("completo");
-    }else{
-        alert("error");
-    }
+	let fin=''
+    for(let i=0;i<9;i++){
+		//recorremos el iterador 
+        if( fichas[
+			i
+		]== i ){
+			//comprobamos que la posicion i es diferente a la posicion i
+            fin='error'
+		
+			}else{
+			fin='completo'
+		}
+	}alert(fin)
+		
+		
 }
