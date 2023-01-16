@@ -63,7 +63,7 @@ comprobarpuz) //evento de escucha cuando haga click en el boton invocara la func
 
 function comprobarpuz(){
 	let fin=''
-    for(let i=0;i<9;i++){
+    for(let i=0;i<=9;i++){
 		//recorremos el iterador 
 	    
         if( fichas[
