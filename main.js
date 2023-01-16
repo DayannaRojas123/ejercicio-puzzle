@@ -70,12 +70,12 @@ function comprobarpuz(){
 			i
 		]== i){
 			//comprobamos que la posicion i es diferente a la posicion i
-            fin='error'
+            fin='puzzle completo c:'
 		
 			}else if( fichas[
 			i
 		]!= i){
-			fin='completo'
+			fin='puzzle incompleto :c'
 		}
 	}alert(fin)
 		
